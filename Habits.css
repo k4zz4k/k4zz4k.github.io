@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+.titre-pres{
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 40px 40px 40px 40px;
+    border: solid 5px black;
+    width: 70%;
+}
+
+.titre-pres h1{
+    margin-bottom: 15px;
+}
+
+.section-pei{
+    border: solid black 10px;
+}
+
+.grid-peinture{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-peinture img{
+    max-width: 420px;
+    margin: auto;
+}
+
+.titre-formulaire h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 55px;
+    margin-top: 50px;
+    font-size: 60px;
+  }
+  
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    color: white;
+  }
+  
+  .form-nom-email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea{
+    padding: 15px;
+    border: solid black 5px;
+    border-radius: 7px;
+    font-family: Manrope;
+  }
+  
+  .label{
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"]{
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #318CE7;
+  }
+  
+  textarea{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;  
+  }
+
+  .section-contact{
+    border: solid black 10px;
+  }
+
+  .info-hab{
+    border: solid black 10px;
+    background-color: #318CE7;
+  }
+
+  .info-hab p{
+    font-size: large;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .info-hab h1{
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .plus-inf-hab{
+    border: black solid 10px;
+    background-color: #318CE7;
+  }
+
+  .plus-inf-hab h1{
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .plus-inf-hab p{
+    font-size: large;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .section-photo-hab{
+    border: black solid 10px;
+  }
+
+  .photo-hab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .photo-hab img{
+    max-width: 420px;
+    margin: auto;
+  }
